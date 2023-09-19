@@ -495,18 +495,35 @@ int main(int argc, char **argv)
 
 ```
 
-## Output:
+## Output:-
+
+
+
 block.x = 1023
+
+
 <img width="685" alt="image" src="https://github.com/ezhilmathir/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/94210147/a46be6ef-717c-4442-9350-f2b04c1fd356">
+
+
 
 
 block.x = 1024
 
+
+
 <img width="620" alt="image" src="https://github.com/ezhilmathir/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/94210147/6376145c-b5a9-48ae-82d2-c83fc96c0b49">
+
+
 
 block.x = 256
 
+
+
+
 <img width="624" alt="image" src="https://github.com/ezhilmathir/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/94210147/c38b8de9-5e5d-486d-ab14-b769274af704">
+
+
+
 Host-based array summation vs GPU-based vector summation
 
 GPUs: “SIMD” - “Single-Instruction, Multiple-Data”. A GPU can operate on a hundred or a thousand vertices or pixels at once in parallel, but it has to perform exactly the same calculation on all of them.
